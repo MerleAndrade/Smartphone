@@ -2,9 +2,9 @@ package modul;
 
 import java.util.Objects;
 
-public class Friend extends Contact {
+public class Friend extends Contact { // erbt alle sichtbaren Eigenschaften der Klasse Contact, Unterklasse
 
-    public Friend(String name, String telephoneNumber){ // erbt hier, hääte das auch mit super funktioniert?
+    public Friend(String name, String telephoneNumber){ // erbt hier, hätte das auch mit super funktioniert?
         this.name = name;
         this.telephoneNumber = telephoneNumber;
     }
@@ -37,8 +37,8 @@ public class Friend extends Contact {
     @Override
     public String toString() {
         return "Friend{" +
-                "telephoneNumber='" + telephoneNumber + '\'' +
-                ", name='" + name + '\'' +
+                "telephoneNumber= '" + telephoneNumber + '\'' +
+                ", name= '" + name + '\'' +
                 '}';
     }
 }
