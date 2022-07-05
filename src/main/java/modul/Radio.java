@@ -2,7 +2,7 @@ package modul;
 
 public interface Radio {
 
-    String startRadio();
+    boolean startRadio();
 
-    String stopRadio();
+    boolean stopRadio();
 }
